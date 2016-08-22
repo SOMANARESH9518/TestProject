@@ -3,6 +3,7 @@ Own Project for Testing
 
 
 1.print_natural_number_format.py
+
 This is used to print number sequence for the input number.
 Ex: if N = 5
 result = 12345
