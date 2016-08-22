@@ -14,7 +14,11 @@ def find_number_of_digits(N):
 	return a
 	
 N = int(sys.argv[1])
-n = find_number_of_digits(N)
+if N >0:
+	n = find_number_of_digits(N)
+else:
+	print("Given either negative value or 0 but should be greater than zero")
+	sys.exit(1)
 print("Number of digits in number %s is %s"%(N,n))
 
 for each in range(1,n+1):	
