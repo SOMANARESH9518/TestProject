@@ -41,18 +41,15 @@ where p1, p2, ...., pn are the prime factors and e1, e2, ....., en is the degree
 
 Note: power of 2 should always be given. For a prime number , only 2^0 is printed.
 
-SAMPLE INPUT 
+SAMPLE INPUT
+
 3
-
 32
-
 100
-
 9085
 
-SAMPLE OUTPUT 
+SAMPLE OUTPUT
+
 2^5
-
 2^2*5^2
-
 2^0*5^1*23^1*79^1
